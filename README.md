@@ -21,11 +21,9 @@ display smoothly:
 
 **rolling-shutter-tkinter.py**
 
-The video can be found at this link:
+Installation instructions for the Python libraries are below the image.
 
-https://www.reddit.com/r/Python/comments/dbg4nm/rolling_shutter_effect_demonstrated_with_python/?utm_source=share&utm_medium=web2x
-
-![Rolling Shutter Effect](rolling-shutter-effect.png)
+![Rolling Shutter Effect](rolling-shutter-effect-apng.png)
 
 Installation instructions for Python libraries
 ----------------------------------------------
@@ -48,7 +46,7 @@ in C:\WINDOWS
 
 Ubuntu and Debian
 -----------------
-Works fine with system Python3, version 3.7.3 at the time of writing  
+Works fine with system Python3, version 3.7.3, at the time of writing  
 Install the following packages with `sudo apt install`
 
     python3-numpy python3-tk python3-pil python3-pil.imagetk ffmpeg
