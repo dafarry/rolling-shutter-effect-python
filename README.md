@@ -8,7 +8,7 @@ propellor connected to an electric drill — then some Python code to
 process the video to emulate the rolling shutter effect and to add
 a green line scanning down the image.
 
-Well, I thought, let's do the whole thing in Python.
+Well, I thought, instead of that, let's do the **whole thing** in Python.
 
 This file is 30 lines of Python, using the Numpy and Pillow libraries and
 ffmpeg to create the video:
@@ -23,7 +23,7 @@ display smoothly:
 
 The video can be found at this link:
 
-https://new.reddit.com/r/Python/comments/dbg4nm/rolling_shutter_effect_demonstrated_with_python/?utm_source=share&utm_medium=web2x
+https://www.reddit.com/r/Python/comments/dbg4nm/rolling_shutter_effect_demonstrated_with_python/?utm_source=share&utm_medium=web2x
 
 ![Rolling Shutter Effect](rolling-shutter-effect.png)
 
@@ -32,7 +32,7 @@ Installation instructions for Python libraries
 
 Windows
 -------
-Download & install the latest Python from python.org
+Download & install the latest Python from python.org  
 Then at the Windows Command Prompt, install the libraries like so:
 
     python -m pip install --upgrage pip
@@ -40,15 +40,15 @@ Then at the Windows Command Prompt, install the libraries like so:
     python -m pip install numpy
     python -m pip install pillow
 
-Download FFMpeg from ffmpeg.org
-Version 4.2.1 of FFMpeg was used at the time of writing.
-Only needed for making the mpeg video with the "makevideo" python script.
-Unzip the file, and put ffmpeg.exe somewhere on your PATH, e.g.:
+Download FFMpeg from ffmpeg.org  
+Version 4.2.1 of FFMpeg was used at the time of writing.  
+Only needed for making the mpeg video with the "makevideo" python script.  
+Unzip the file, and put ffmpeg.exe somewhere on your PATH, e.g.: 
 in C:\WINDOWS
 
 Ubuntu and Debian
 -----------------
-Works fine with system Python3, version 3.7.3 at the time of writing
+Works fine with system Python3, version 3.7.3 at the time of writing  
 Install the following packages with `sudo apt install`
 
     python3-numpy python3-tk python3-pil python3-pil.imagetk ffmpeg
