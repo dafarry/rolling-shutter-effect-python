@@ -24,7 +24,7 @@ display smoothly:
 
 Installation instructions for the Python libraries are below.
 
-![Rolling Shutter Effect](rolling-shutter-effect-apng.png)
+![Rolling Shutter Effect](rolling-shutter-effect.gif)
 
 Installation instructions for Python libraries
 ----------------------------------------------
@@ -34,7 +34,7 @@ Windows
 Download & install the latest Python from python.org  
 Then at the Windows Command Prompt, install the libraries like so:
 
-    python -m pip install --upgrage pip
+    python -m pip install --upgrade pip
     python -m pip install --upgrade wheel setuptools
     python -m pip install numpy
     python -m pip install pillow
