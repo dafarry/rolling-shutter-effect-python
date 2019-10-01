@@ -1,6 +1,7 @@
 # Rolling Shutter Effect Video generated with Python
 
-I watched the Youtube video "Rolling Shutter Explained on the Cheap"
+I watched the Youtube video 
+[Rolling Shutter Explained on the Cheap](https://www.youtube.com/watch?v=nP1elMR5qjc)
 by Matt Parker where he shows that you don't need to visit an actual
 aeroplane with expensive slow-motion cameras to demonstrate the rolling shutter
 effect on aircraft propellors. He shows that you can do it with a model
@@ -13,15 +14,15 @@ Well, I thought, instead of that, let's do the **whole thing** in Python.
 This file is 30 lines of Python, using the Numpy and Pillow libraries and
 ffmpeg to create the video:
 
-**rolling-shutter-makevideo.py**
+[rolling-shutter-makevideo.py](rolling-shutter-makevideo.py)
 
 This file is another version that uses Tkinter to display the video to your
 screen in real time rather than making a video. It needs a fast(ish) PC to
 display smoothly:
 
-**rolling-shutter-tkinter.py**
+[rolling-shutter-tkinter.py](rolling-shutter-tkinter.py)
 
-Installation instructions for the Python libraries are below the image.
+Installation instructions for the Python libraries are below.
 
 ![Rolling Shutter Effect](rolling-shutter-effect-apng.png)
 
